@@ -14,8 +14,7 @@
 
   "build:frontend": "vite build",
   "start": "node api/server.production.js"
-}
-  },
+},
   "dependencies": {
     "@headlessui/react": "^2.2.9",
     "@types/bcryptjs": "^2.4.6",
