@@ -4,19 +4,19 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "client:dev": "vite",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "check": "tsc --noEmit",
+    "client:dev": "vite",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "check": "tsc --noEmit",
 
-  "server:dev": "nodemon",
-  "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
+    "server:dev": "nodemon",
+    "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
 
-  "build:backend": "tsc -p api/tsconfig.json",
-  "build:frontend": "vite build",
+    "build:backend": "tsc -p api/tsconfig.json",
+    "build:frontend": "vite build",
 
-  "build": "npm run build:backend && npm run build:frontend",
-  "start": "node api/server.production.js"
+    "build": "npm run build:backend && npm run build:frontend",
+    "start": "node api/server.production.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
