@@ -13,13 +13,9 @@
     "rootDir": ".",
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "typeRoots": ["../node_modules/@types", "./types"]
   },
-  "include": [
-    "**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["**/*"],
+  "exclude": ["node_modules", "dist"]
 }
